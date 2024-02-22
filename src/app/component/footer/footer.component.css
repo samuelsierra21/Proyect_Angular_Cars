@@ -12,7 +12,7 @@
     width: 100%;
     height: 22vh;
     background-color: rgb(131, 125, 125);
-    gap: 40vw;
+    gap: 20vw;
 }
 .content-links-footer{
     display: flex;

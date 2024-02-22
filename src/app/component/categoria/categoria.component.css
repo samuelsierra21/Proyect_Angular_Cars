@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content_cars{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 10vh;
+    gap: 10vh;
+}
+.cars{
+    cursor: pointer;
+}
+/* .cars:hover{
+    transform: scale(1.1);
+} */
+.cars_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cars_content{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+}
+.cars_content_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cars_content_año{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cars_content_precio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*IMG BANK*/
+.content_cars_bank{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+}
+.img_bank{
+    width: 100%;
+}
+h3{
+    font-size: 2.2vh;
+}
+/* toyota */
+.content_cars_toyota{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 10vh;
+}
+.img_cars_toyota{
+    width: 18vw;
+}
+.content_TOYOTA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}

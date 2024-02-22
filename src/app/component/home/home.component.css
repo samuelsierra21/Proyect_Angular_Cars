@@ -61,3 +61,47 @@
 .Logo-wv{
     width: 30vh;
 }
+.content_vacio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 4vh;
+    border-bottom: 3px solid black;
+}
+/*BANNER*/
+.complementario{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 10vh;
+}
+.banner{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+.img_banner{
+    width: 20vw;
+}
+.anuncio_img{
+    width: 100%;
+}
+.content_banner_titul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    background-color: #fff;
+    font-size: 1.5vh;
+    height: 4vh;
+}
+.anuncios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
